@@ -3,16 +3,16 @@
 #include <math.h>
 int main()
 {
-    //programa para calcular ·rea do tri‚ngulo, ret‚ngulo e circulo usando switch case
+    //programa para calcular √°rea do tri√¢ngulo, ret√¢ngulo e circulo usando switch case
 
     //var
     float area,altura,base,pi;
     int op;
 
     //dados
-    printf("Opcoes:\n");
-    printf("1- triangulo\n2-Retangulo\n3-circulo");//opÁıes disponiveis
-    printf("\nqual das areas quer descobrir? (digite o numero correspondete a cada opcao) : ");
+    printf("Op√ß√µes:\n");
+    printf("1- triangulo\n2-Retangulo\n3-c√≠rculo");//op√ß√µes disponiveis
+    printf("\nqual das areas quer descobrir? (digite o numero correspondete a cada op√ß√£o) : ");
     scanf("%i",&op);
 
     //casos
@@ -20,7 +20,7 @@ int main()
     {
     //inicio primeiro caso
     case 1:
-        printf("\nArea do Triangulo e dada por ; (base * altura) / 2"); //informa ao user a escolha e formula usada
+        printf("\nArea do Triangulo √© dada por ; (base * altura) / 2"); //informa ao user a escolha e formula usada
 
         //dados para a formula
         printf("\ndigite a base:");
@@ -31,7 +31,7 @@ int main()
         //calculo
         area = (base * altura)/2;
 
-        //exibiÁ„o do resultado
+        //exibi√ß√£o do resultado
         printf("\na area do triangulo e: %.2f M\n", area);
 
         break; //finaliza o primeiro caso
@@ -50,14 +50,14 @@ int main()
         //calculo
         area = base * altura;
 
-        //exibiÁ„o
+        //exibi√ß√£o
         printf("\n A area do retangulo e : %.2f M\n", area);
-        break; //finalizaÁ„o do segundo caso
+        break; //finaliza√ß√£o do segundo caso
 
     //inicio ao ultimo caso
     case 3:
         printf("\nArea do circulo e dado por; area = pi * raio^2\n");//informa ao user a escolha e formula usado
-        printf("obs: Sera utilizado 3,14 para valor de pi\n");//informaÁ„o importante ao user
+        printf("obs: Sera utilizado 3,14 para valor de pi\n");//informa√ß√£o importante ao user
 
         //dados para calculo
         printf("\nDigite valor do raio:");
