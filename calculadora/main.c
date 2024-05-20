@@ -3,7 +3,7 @@
 
 int main()
 {
-    // criar calculadora que so calcula n˙meros positivos
+    // criar calculadora que so calcula n√∫meros positivos
 
     float n1, n2, re;
     char operador;
@@ -32,21 +32,21 @@ int main()
 
         case '-':
             re = n1 - n2;
-            printf("subtraÁ„o: %.2f", re);
+            printf("subtra√ß√£o: %.2f", re);
             break;
         case '*':
             re = n1 * n2;
-            printf("multiplicaÁ„o: %.2f", re);
+            printf("multiplica√ß√£o: %.2f", re);
             break;
         case '/':
             if (n2 !=0)
             {
                 re = n1 / n2;
-                printf("divis„o: %.2f", re);
+                printf("divis√£o: %.2f", re);
             }
             else
             {
-                printf("Erro: operador inv·lido.\n");
+                printf("Erro: n√∫mero inv√°lido.\n");
             }
             break;
         }
