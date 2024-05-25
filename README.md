@@ -1,2 +1,2 @@
 # Mais-c-digos-em-C
-códigos criados para fixação do aprendizado 
+códigos criados por mim para fixação do aprendizado 👩🏽‍💻
